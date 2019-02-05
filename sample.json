@@ -1,0 +1,22 @@
+{
+  "<CountryName>": {
+    "state": "<StateName>",
+    "cities": [{
+      "city": "<CityName>",
+      "streets": [
+        {
+          "street": "foo",
+          "numbers": [1,2,3]
+        },
+        {
+          "street": "bar",
+          "numbers": [10,20,30]
+        },
+        {
+          "street": "baz",
+          "numbers": [123]
+        }
+      ]
+    }]
+  }
+}
