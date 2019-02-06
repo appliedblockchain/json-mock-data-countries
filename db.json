@@ -1,7 +1,14 @@
 {
+  "countrylist": [
+    "Mongolia",
+    "Costa Rica",
+    "San Marino",
+    "Suriname",
+    "Trinidad and Tobago"
+  ],
   "countries": [
     {
-      "country": "Mongolia",
+      "name": "Mongolia",
       "states": [
         {
           "state": "Colorado",
@@ -851,7 +858,7 @@
       ]
     },
     {
-      "country": "Costa Rica",
+      "name": "Costa Rica",
       "states": [
         {
           "state": "Oklahoma",
@@ -1274,7 +1281,7 @@
       ]
     },
     {
-      "country": "San Marino",
+      "name": "San Marino",
       "states": [
         {
           "state": "Rhode Island",
@@ -1543,7 +1550,7 @@
       ]
     },
     {
-      "country": "Suriname",
+      "name": "Suriname",
       "states": [
         {
           "state": "North Dakota",
@@ -2009,7 +2016,7 @@
       ]
     },
     {
-      "country": "Trinidad and Tobago",
+      "name": "Trinidad and Tobago",
       "states": [
         {
           "state": "Tennessee",
