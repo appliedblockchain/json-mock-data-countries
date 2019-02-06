@@ -2,24 +2,18 @@
   countries: [
     '{{repeat(5)}}',
     {
-      country: '{{country()}}',
-      states: [
-        '{{repeat(1, 10)}}',
+      name: '{{country()}}',
+      cities: [
+        '{{repeat(10, 20)}}',
         {
-          state: '{{state()}}',
-          cities: [
+          city: '{{city()}}',
+          streets: [
             '{{repeat(1, 5)}}',
             {
-              city: '{{city()}}',
-              streets: [
+              street: '{{street()}}',
+              numbers: [
                 '{{repeat(1, 5)}}',
-                {
-                  street: '{{street()}}',
-                  numbers: [
-                    '{{repeat(1, 5)}}',
-                    '{{integer(100, 999)}}'
-                  ]
-                }
+                '{{integer(100, 999)}}'
               ]
             }
           ]
